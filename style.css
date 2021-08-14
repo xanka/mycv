@@ -29,15 +29,23 @@
   --main-blocks-title-icon-offset-left: -19pt;
 }
 
+html {
+  background-color: rgb(82, 86, 89);
+}
+
 body{
   width: var(--page-width);
   height: var(--page-height);
-  margin: 0;
-  font-family: "Open Sans", sans-serif; 
+  font-family: "Open Sans", sans-serif;
   font-weight: 300;
   line-height: 1.3;
   color: #444;
   hyphens: auto;
+  border: 1px solid #2d2b2b;
+  margin: 0 auto;
+  box-sizing: content-box;
+  box-shadow: 0 0 8px 2px #000000;
+  background: #ffffff;
 }
 
 h1, h2, h3{
