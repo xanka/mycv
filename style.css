@@ -107,7 +107,13 @@ h1, h2{
   font-weight: 600;
 }
 
-.subtitle{
+.subtitle {
+  text-transform: uppercase;
+  font-size: 10pt;
+  margin-bottom: 5pt;
+}
+
+.description{
   font-size: 8.5pt;
   max-width: calc(100% - 0.55in);
 }
