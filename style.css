@@ -9,7 +9,7 @@
 
 :root{
   --page-width: 8.5in;
-  --page-height: 11in;
+  --page-height: 13in;
   --main-width: 6.4in;
   --sidebar-width: calc(var(--page-width) - var(--main-width));
   --decorator-horizontal-margin: 0.2in;
@@ -72,6 +72,14 @@ li{
   padding: 0.6in var(--sidebar-horizontal-padding);
   background-color: #f2f2f2;
   font-size: 8.5pt;
+}
+
+#sidebar .image {
+  margin-bottom: 10pt;
+}
+
+#sidebar .profile-image {
+  width: 100%;
 }
 
 /* main */
