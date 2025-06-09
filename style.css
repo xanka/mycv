@@ -9,7 +9,7 @@
 
 :root{
   --page-width: 11.5in;
-  --page-height: 17in;
+  --page-height: 20in;
   --main-width: 7.9in;
   --sidebar-width: calc(var(
   --page-width) - var(--main-width));
